@@ -1,0 +1,93 @@
+body {
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+  }
+  
+  section {
+    background-color: #0047ab;
+  }
+  
+  #header {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(photos/background.png);
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+  }
+  
+  .profile-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .profile-info {
+    margin-left: 20px;
+  }
+  
+  #portfolio {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  }
+
+  a.whatsapp-link {
+    color: #fff;
+  text-decoration: none;
+  border-bottom: none;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    #header {
+      padding: 50px;
+    }
+    
+    .profile-img {
+      width: 300px;
+      height: 300px;
+    }
+  
+    .profile-info {
+      margin-left: 50px;
+    }
+  
+    #portfolio {
+      padding: 50px;
+    }
+  
+    h3 {
+      font-size: 36px;
+    }
+  }
+  
